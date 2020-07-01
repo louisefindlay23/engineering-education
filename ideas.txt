@@ -1,9 +1,10 @@
-Write an article about creating your first static site (intro to HTML, CSS, JS, Flexbox and Google Fonts)
 
 Include an article about designing your first static site (Adobe XD)
+
+Write an article about creating your first static site (intro to HTML, CSS, JS, Flexbox and Google Fonts)
 
 Write about deploying your first static site to Netlify
 
 Write about SSH, how to configure it and great SSH clients (Termius)
 
-Write about how to set up GSuite Email
+Write about how to set up GSuite Email - Setting up GSuite with MX records and configuring SPF, DKIM and DMARC to authenticate and prevent spam emails (and making sure your emails are received). Also the difference between the Basic and Professional GSuite plans (unlimited GDrive storage)
