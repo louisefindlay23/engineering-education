@@ -7,3 +7,5 @@ Write about deploying your first static site to Netlify
 Write about SSH, how to configure it and great SSH clients (Termius)
 
 Write an intro to Google Search Console. How to add a site, sitemap (build on sitemap Section article) and use it to fix errors and increase SEO
+
+Write about how to set up GSuite Email
