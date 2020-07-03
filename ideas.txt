@@ -8,3 +8,5 @@ Write about deploying your first static site to Netlify
 Write about SSH, how to configure it and great SSH clients (Termius)
 
 Write about how to set up GSuite Email - Setting up GSuite with MX records and configuring SPF, DKIM and DMARC to authenticate and prevent spam emails (and making sure your emails are received). Also the difference between the Basic and Professional GSuite plans (unlimited GDrive storage)
+
+Write a Simple Guide to APIs article - using NodeJS and Goodreads API or try a new one like Unsplash or Spotify
