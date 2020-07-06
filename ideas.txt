@@ -7,7 +7,7 @@ Write an article about templating with Eleventy. Talk about EJS and Markdown and
 
 Write about deploying your first static site to Netlify
 
-Write about SSH, how to configure it and great SSH clients (Termius)
+Write about SSH, picking an SSH client and how to add hosts to it to complement the Deploying a NodeJS web app on DigitalOcean article I wrote for those new to SSH. Using Termius as an example (mention Github Student Developer pack) because it’s cross-platform (and includes iOS)
 
 Write a Simple Guide to APIs article - using NodeJS and Goodreads API or try a new one like Unsplash or Spotify
 
