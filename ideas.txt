@@ -12,3 +12,5 @@ Write about SSH, picking an SSH client and how to add hosts to it to complement 
 Write a Simple Guide to APIs article - using NodeJS and Goodreads API or try a new one like Unsplash or Spotify
 
 Write an article about about WSL2 since it’s in the latest Windows Update - installation, Docker and different Terminals. Maybe also installing Powerline fonts for ZSH since it’s a bit different to normal Linux installation.
+
+Writing part 2 database article about using MongoDB with NodeJS (adds onto my previous NodeJS Converting a Static Site article). Might use a Book DB as an example since the first part involves using a book db.
