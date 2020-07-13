@@ -3,7 +3,7 @@ Include an article about designing your first static site (Adobe XD)
 
 Write an article about creating your first static site (intro to HTML, CSS, JS, Flexbox and Google Fonts)
 
-Write an article about templating with Eleventy. Talk about EJS and Markdown and Static Site Generators. First article = Converting a Static Site and then next one would be a blog.
+Write Part 2 of Templating Your Static Site - Eleventy blog / collections / archive page
 
 Write about deploying your first static site to Netlify
 
