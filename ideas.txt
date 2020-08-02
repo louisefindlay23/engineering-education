@@ -3,13 +3,13 @@ Include an article about designing your first static site (Adobe XD)
 
 Write an article about creating your first static site (intro to HTML, CSS, JS, Flexbox and Google Fonts)
 
-Write an article about templating with Eleventy. Talk about EJS and Markdown and Static Site Generators. First article = Converting a Static Site and then next one would be a blog.
+Eleventy Part 2 (Blog/Collections/Archive Pages/Google Search/Pagination - perhaps show indexing and link to further post on fancy search)
 
 Write about deploying your first static site to Netlify
 
 Write about SSH, picking an SSH client and how to add hosts to it to complement the Deploying a NodeJS web app on DigitalOcean article I wrote for those new to SSH. Using Termius as an example (mention Github Student Developer pack) because it’s cross-platform (and includes iOS)
 
-Write a Simple Guide to APIs article - using NodeJS and Goodreads API or try a new one like Unsplash or Spotify
+Write a Simple Guide to APIs part 2 (see PR)
 
 Write an article about about WSL2 since it’s in the latest Windows Update - installation, Docker and different Terminals. Maybe also installing Powerline fonts for ZSH since it’s a bit different to normal Linux installation.
 
