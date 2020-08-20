@@ -13,4 +13,6 @@ Write an article about about WSL2 since it’s in the latest Windows Update - in
 
 See if an article on rclone would be useful (adapt coursework instructions)
 
+Write Rclone Part 2 about mergerfs which you can use to merge a local folder with a mounted cloud folder so you can write to a local folder as a cache and still see your archived cloud storage.
+
 Write intro to SASS
