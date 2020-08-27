@@ -11,8 +11,14 @@ Write about SSH, picking an SSH client and how to add hosts to it to complement 
 
 Write an article about about WSL2 since it’s in the latest Windows Update - installation, Docker and different Terminals. Maybe also installing Powerline fonts for ZSH since it’s a bit different to normal Linux installation.
 
-See if an article on rclone would be useful (adapt coursework instructions)
-
 Write Rclone Part 2 about mergerfs which you can use to merge a local folder with a mounted cloud folder so you can write to a local folder as a cache and still see your archived cloud storage.
 
 Write intro to SASS
+
+Write about Caching in WordPress: Client-Side vs Server-Side
+Summary: How caching works in WordPress. The differences between server-side and client-side caching, the advantages and disadvantages of both and an example of how to setup both. Should readers setup both server-side and client-side caching and how does it affect editing and publishing webpages?
+Key Takeaways: The difference between client-side and server-side caching
+What are the advantages and disadvantages of server-side and client-side caching?
+Should you setup both client-side and server-side caching?
+How to setup client-side and server-side caching?
+How does enabling caching affect how users see new content?
