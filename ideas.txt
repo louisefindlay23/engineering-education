@@ -22,3 +22,7 @@ What are the advantages and disadvantages of server-side and client-side caching
 Should you setup both client-side and server-side caching?
 How to setup client-side and server-side caching?
 How does enabling caching affect how users see new content?
+
+Article Title: Optimising A Static Site: Best Practises
+Summary: Learn how to best optimise a static site. Learn about CSS and JS minification and where you should include stylesheets and scripts. Should you use CDNs for JS libraries and fonts or host them locally? Is it better that bundle scripts and stylesheets together on use them seperately?
+Key Takeaways: Why you should minify CSS and JS files. Should you avoid external fonts, stylesheets and libraries for speed? Should you bundle scripts and stylesheets and is it every okay to write inline CSS and JS?
