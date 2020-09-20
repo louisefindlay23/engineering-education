@@ -17,7 +17,7 @@ Write intro to SASS
 
 Write about Caching in WordPress: Client-Side vs Server-Side. The advantages and disadvantages of both and an example of how to setup both. Should readers setup both server-side and client-side caching and how does it affect editing and publishing webpages?
 
-Write Optimising A Static Site: Best Practises. Learn how to best optimise a static site. Learn about CSS and JS minification and where you should include stylesheets and scripts. Should you use CDNs for JS libraries and fonts or host them locally? Is it better that bundle scripts and stylesheets together on use them seperately? Is it every okay to write inline CSS and JS?
+Write Optimising A Static Site: Best Practises. Learn how to best optimise a static site. Learn about CSS and JS minification and where you should include stylesheets and scripts. Should you use CDNs for JS libraries and fonts or host them locally? Is it better that bundle scripts and stylesheets together on use them seperately? Is it every okay to write inline CSS and JS? - use Eleventy leaderboard/Speedlify/Google Lighthouse as speed testers
 
 Write about Animate.css and CSS Animation
 
