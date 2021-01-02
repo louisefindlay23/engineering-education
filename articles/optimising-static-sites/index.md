@@ -19,7 +19,45 @@ Finally, you'll discover different speed-testing tools, find out which matters m
 
 ### A Brief Guide to Image Optimisation
 
-Briefly cover image optimisation and link to Section article with further detail - one you reviewed
+Having gorgeous full-width images and photo galleries can make your website stand out but they can also slow down your site. There's no reason to have a 2560x1080px image if your website only displays it at 800x400px. 
+
+A sensible default is to resize your images to be 1920x wide as a maximum but the best approach is to inspect your images by right clicking on them and selecting view image info which will tell you the image's dimensions. Do this for every image using a browser window that's the highest resolution you expect your visitors to have and then resize them to that size.
+
+Sites like [TinyPNG](https://tinypng.com) and [ShortPixel](https://shortpixel.com/online-image-compression) can optimise PNG and JPG files further using lossy (or in ShortPixel's case, lossy, glossy or lossless) compression to reduce file sizes further but this can also be handled manually using Photoshop's Save for Web export option where you can specify size, file format and quality. 
+
+As a general rule, all non-transparent images should be converted to JPGs with the quality set to 70 which should provide a good balance between size and quality.  
+
+However, there is a even more efficient file format that can be used, webP. As with other image formats, there are plenty of online conversion sites that support webP ([WebP Converter](https://webp-converter.com) is but one of them) that will convert image files to and from webP. For more control, [WebPShop](https://github.com/webmproject/WebPShop) is a Photoshop plugin that will allow you to open and save WebP files and it also provides quality settings. *Note:* You must export your image via Save or Save As for the plugin to work.
+
+[/engineering-education/optimising-static-sites.png](Can I Use WebP image format table)
+
+Unfortunately, while WebP support is widespread across browsers and operating systems, it isn't universal. According to [Can I Use](https://caniuse.com/?search=webp), Safari support is limited to the latest OS versions (macOS Big Sur and iOS/iPadOS 14 and above) and Internet Explorer doesn't support it all so a fallback would need to be provided. That's where the `<picture>` and `<sourceset>` elements come in. They can be combined to serve multiple image formats for a single image similar to the `<audio>` and `<video>` elements.
+
+```html
+<picture>
+  <source srcset="img/niceNewImageFormat.webp" type="image/webp">
+  <source srcset="img/normalImageNewElement.jpg" type="image/jpeg"> 
+  <img src="img/sameNormalImage.jpg" alt="Normal Alt Text">
+</picture>
+```
+
+Previous blog with JPG2000XR
+
+But overkill so CSSTricks
+
+With optimised JPG and PNG
+
+**Briefly cover image optimisation and link to Section article with further detail - one you reviewed**
+
+### Best Practises to Stream Videos
+
+Not just stream videos and display auto-play. It's much more performant to load the video thumbnail as an image and then only display the video iframe when a user chooses to play the video (and thus load YouTube's JS).
+
+Link to CSSTricks article
+
+## Libraries Icons and JS/CSS etc.
+
+Instead of hosting the whole thing (minified, slim or not). Just include the pieces you need. Code coverage tools can help with this.
 
 ### CSS and JS Minification
 
@@ -48,7 +86,7 @@ If code is only used on certain pages, better to split the CSS file into multipl
 
 For unique styles and scripts, only needed in one place, it's best to inline it for best performance.
 
-You can also use an optimisation method called critically inline which means all the necessary code for the webpage to function is inlined and the extra code is contained in stylesheets and scripts and its loading is deferred.
+You can also use an optimisation method called critically inline which means all the necessary code for the webpage to function is inlined and the extra code is contained in stylesheets and scripts and its loading is deferred. Tools like [Pegasus](https://pegasaas.com/critical-path-css-generator/) will automatically generate the critical CSS for your site.
 
 ## Speed Testing Tools
 
