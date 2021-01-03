@@ -31,7 +31,9 @@ However, there is a even more efficient file format that can be used, webP. As w
 
 [/engineering-education/optimising-static-sites.png](Can I Use WebP image format table)
 
-Unfortunately, while WebP support is widespread across browsers and operating systems, it isn't universal. According to [Can I Use](https://caniuse.com/?search=webp), Safari support is limited to the latest OS versions (macOS Big Sur and iOS/iPadOS 14 and above) and Internet Explorer doesn't support it all so a fallback would need to be provided. That's where the `<picture>` and `<sourceset>` elements come in. They can be combined to serve multiple image formats for a single image similar to the `<audio>` and `<video>` elements.
+Unfortunately, while WebP support is widespread across browsers and operating systems, it isn't universal. According to [Can I Use](https://caniuse.com/?search=webp), Safari support is limited to the latest OS versions (macOS Big Sur and iOS/iPadOS 14 and above) and Internet Explorer doesn't support it all so a fallback would need to be provided. That's where the `<picture>` and `<sourceset>` elements come in. They can be combined to serve multiple image formats for a single image similar to the `<audio>` and `<video>` elements. 
+
+**Note:** The other browsers can be served with [more efficient formats](https://www.joshwcomeau.com/performance/embracing-modern-image-formats) (JPEG 2000 and JPEG XR for older versions of Safari and Internet Explorer respectively) but with the effort it takes to convert every image to two additional formats, a well-optimised JPG and PNG would suffice.
 
 ```html
 <picture>
@@ -40,12 +42,7 @@ Unfortunately, while WebP support is widespread across browsers and operating sy
   <img src="img/sameNormalImage.jpg" alt="Normal Alt Text">
 </picture>
 ```
-
-Previous blog with JPG2000XR
-
-But overkill so CSSTricks
-
-With optimised JPG and PNG
+See [CSSTricks](https://css-tricks.com/using-webp-images) for a more detailed guide to using WebP images including in CSS (for background images, for example.)
 
 **Briefly cover image optimisation and link to Section article with further detail - one you reviewed**
 
